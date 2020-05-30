@@ -7,9 +7,10 @@ packages=(
     gruntfuggly.todo-tree,
     alefragnani.bookmarks,
     formulahendry.code-runner,
-    ms-python.python,
+    ms-python.python-2020,
     kevinrose.vsc-python-indent,
-    ms-azuretools.vscode-docker
+    ms-azuretools.vscode-docker,
+    davidanson.vscode-markdownlint,
 )
 
 for i in ${packages[@]}; do
