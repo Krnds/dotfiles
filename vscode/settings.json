@@ -15,7 +15,7 @@
         "window.zoomLevel": -1,
         "python.autoComplete.extraPaths": [
             "/usr/lib/python3.8",
-            "/usr/lib/python3/dist-packages",
+            "/usr/lib/python3/dist-packages"
         ],
 
         "python.linting.pylintEnabled": true,
@@ -62,7 +62,41 @@
         "python.testing.pytestEnabled": false,
         "python.testing.nosetestsEnabled": false,
         "python.testing.unittestEnabled": true,
-        "python.jediEnabled": true
+        "python.jediEnabled": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "editor.formatOnSave": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "black",
+            "border": "1px solid #f5cd79",
+            "borderRadius": "3px",
+            "backgroundColor": "#f5cd79"
+        }
+    ],
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.md",
+        "**/*.mmd",
+        "**/*.markdown",
+        "**/*.mdown"
+    ]
 
 }
 
